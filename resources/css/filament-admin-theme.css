@@ -1,0 +1,155 @@
+/* ========== القائمة الجانبية - ثابتة بكلا الوضعين ========== */
+.fi-sidebar,
+.dark .fi-sidebar {
+    background-color: #0f0f1a !important;
+}
+
+.fi-sidebar-header,
+.dark .fi-sidebar-header {
+    background-color: #0f0f1a !important;
+    border-bottom: 1px solid #2d2d3d !important;
+}
+
+/* شعار/اسم اللوحة */
+.fi-sidebar-header .fi-logo,
+.fi-sidebar-header span,
+.fi-sidebar-header a,
+.dark .fi-sidebar-header .fi-logo,
+.dark .fi-sidebar-header span,
+.dark .fi-sidebar-header a {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/* نصوص عناصر القائمة */
+.fi-sidebar-item-button,
+.dark .fi-sidebar-item-button {
+    color: #ffffff !important;
+}
+
+.fi-sidebar-item-button:hover,
+.dark .fi-sidebar-item-button:hover {
+    background-color: #1a1a2e !important;
+    color: #ffffff !important;
+}
+
+/* العنصر النشط */
+.fi-sidebar-item-active .fi-sidebar-item-button,
+.dark .fi-sidebar-item-active .fi-sidebar-item-button {
+    background-color: #7c3aed !important;
+    color: #ffffff !important;
+    border-radius: 12px !important;
+}
+
+/* الأيقونات */
+.fi-sidebar-item-icon,
+.dark .fi-sidebar-item-icon {
+    color: #ffffff !important;
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-icon,
+.dark .fi-sidebar-item-active .fi-sidebar-item-icon {
+    color: #ffffff !important;
+}
+
+/* عناوين المجموعات */
+.fi-sidebar-group-label,
+.dark .fi-sidebar-group-label {
+    color: #ffffff !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+    opacity: 1 !important;
+}
+
+/* زر توسيع المجموعة */
+.fi-sidebar-group-collapse-button,
+.dark .fi-sidebar-group-collapse-button {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+.fi-sidebar-group-collapse-button svg,
+.dark .fi-sidebar-group-collapse-button svg {
+    color: #ffffff !important;
+    stroke: #ffffff !important;
+}
+
+/* نصوص داخل المجموعات */
+.fi-sidebar-group .fi-sidebar-item-button,
+.dark .fi-sidebar-group .fi-sidebar-item-button {
+    color: #ffffff !important;
+    font-size: 14px !important;
+}
+
+/* خط فاصل بين المجموعات */
+.fi-sidebar-group,
+.dark .fi-sidebar-group {
+    border-bottom: 1px solid #1f1f2e !important;
+    padding-bottom: 4px !important;
+    margin-bottom: 4px !important;
+}
+
+/* ========== المحتوى - يتغير حسب الوضع ========== */
+
+/* Light Mode */
+.fi-topbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e5e7eb !important;
+}
+
+.fi-main {
+    background-color: #f8fafc !important;
+}
+
+/* Dark Mode */
+.dark .fi-topbar {
+    background-color: #1e1e2d !important;
+    border-bottom: 1px solid #2d2d3d !important;
+}
+
+.dark .fi-main {
+    background-color: #13131f !important;
+}
+
+/* كروت Dark Mode */
+.dark .fi-wi-account-widget,
+.dark .fi-wi-filament-info-widget,
+.dark .fi-card {
+    background-color: #1e1e2d !important;
+    border-color: #2d2d3d !important;
+    color: #ffffff !important;
+}
+
+/* نصوص المحتوى Dark Mode */
+.dark .fi-section-content,
+.dark .fi-page-header-heading,
+.dark h1, .dark h2, .dark h3 {
+    color: #ffffff !important;
+}
+/* ========== إصلاح Light Mode - القائمة ========== */
+html:not(.dark) .fi-sidebar-item-button,
+html:not(.dark) .fi-sidebar-item-label,
+html:not(.dark) .fi-sidebar-group .fi-sidebar-item-button {
+    color: #ffffff !important;
+}
+
+html:not(.dark) .fi-sidebar-item-icon {
+    color: #ffffff !important;
+}
+
+html:not(.dark) .fi-sidebar-group-label {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+html:not(.dark) .fi-sidebar-group-collapse-button,
+html:not(.dark) .fi-sidebar-group-collapse-button svg {
+    color: #ffffff !important;
+    stroke: #ffffff !important;
+}
+
+html:not(.dark) .fi-sidebar-item-active .fi-sidebar-item-button {
+    background-color: #7c3aed !important;
+    color: #ffffff !important;
+}
